@@ -1,4 +1,11 @@
 #code your solutions here
+string = "myfavoritewordi'mtoolazytocomeupwith".upcase
+string2 = "IM NOT SHOUTING".downcase
+string3 = "supercalifragilisticexpialidocious".length
+string4 = "wow" + " mom"
+string5 = "i really like programming".capitalize
+string6 = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub("A", "O").gsub("a", "o")
+puts string6
 
 
 #1:  Create a string that contains your favorite word. It can be in any language!
@@ -21,4 +28,3 @@ puts "i really like programming"
 
 #7 Replace all "A" with "O" and "a" with "o" by chaining together `gsub`
 puts "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
-
